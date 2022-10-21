@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+}
+button {
+    border-color: black;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+button:hover {
+    transition: 0.7s;
+    text-shadow: 0px 0px 1px white;
+    border-color: black;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.hereButton {
+    font-weight: bold;
+    border-color: black;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.mainElements {
+    border: solid black 2px;
+    padding-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.header {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+.footer {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+input {
+    padding: 10px;
+    background-color: white;
+    outline-color: black;
+    text-align: center;
+    width: 45%;
+}
+.contactMessage, .contactEmail {
+    width: 93%;
+}
+.contactMain {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 30px;
+}
+.contactForm {
+    padding-top: 50px;
+}
+.aboutUsImage {
+    max-width: 100%;
+}
+.aboutUsMain {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid black 2px;
+}
+.aboutUsText {
+    text-align: center;
+    margin-right: 10%;
+}

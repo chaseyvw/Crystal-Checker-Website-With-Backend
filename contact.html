@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="functions.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Contact Us</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <header>
+                <button onclick="location.href='mainPage.html';">Home</button>
+                <button class="hereButton" onclick="location.href='contact.html';">Contact</button>
+                <button onclick="location.href='about.html';">About Us</button>
+            </header>
+        </div>
+        <div class="contactMain">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you!<br>Let us know what is going on and a member from our team will reach out shortly.</p>
+            <form class="contactForm">
+                <input type="text" id="contactFirstName" placeholder="First Name">
+                <input type="text" id="contactLastName" placeholder="Last Name"><br><br>
+                <input type="email" id="contactEmail" class="contactEmail" placeholder="example@example.com"><br><br>
+                <input type="text" id="contactMessage" class="contactMessage" placeholder="Tell us everything!"><br><br>
+                <button onclick="contactMessageSent()" class="contactSendButton">Send</button>
+            </form>
+        </div>
+        <div class="footer">
+            <footer>
+                &#169 This website belongs to Chasey Van Wie
+            </footer>
+        </div>
+    </body>
+</html>

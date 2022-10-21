@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="functions.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Crystal Checker</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <header>
+                <button class="hereButton" onclick="location.href='mainPage.html';">Home</button>
+                <button onclick="location.href='contact.html';">Contact</button>
+                <button onclick="location.href='about.html';">About Us</button>
+            </header>
+        </div>
+        <br>
+        <h1>Crystal Checker</h1>
+        <br><br>
+        <div class="mainElements">
+            <h3>Please enter your crystal.</h3><br>
+            <input type="text" id="crystalName" class="crystalName" placeholder="Crystal Name"><br><br>
+            <button id="submitButton" onclick="showResults()" class="submitButton">Show me!</button><br><br>
+            <span id="results" class="results"></span>
+        </div>
+        <div class="footer">
+            <footer>
+                &#169 This website belongs to Chasey Van Wie
+            </footer>
+        </div>
+    </body>
+</html>
